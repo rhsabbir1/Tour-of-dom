@@ -14,7 +14,7 @@
         <h1>Welcome Dom</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi rem deleniti doloremque commodi ad in adipisci? Dolorem enim praesentium quasi aliquid, inventore, debitis nisi placeat pariatur porro a minima nostrum.</p>
     </header>
-    <main>
+    <main id="main-section">
         <h1>My Awesome Dom Mileston</h1>
         <ul>
             <li>list style </li>
@@ -23,7 +23,7 @@
         </ul>
         <section>
             <h1 id="fevourite-furits">Furits</h1>
-            <ul>
+            <ul id="furits-list">
                 <li class="fourts">Apple </li>
                 <li class="fourts">Banana </li>
                 <li class="fourts">Carrot </li>
@@ -31,7 +31,7 @@
         </section>
     </main>
     <script src="js/index.js"></script>
-
+    <script src="js/append.js"></script>
     <script>
         const liCollection = document.getElementsByTagName('li');
         // console.log(liCollection)
@@ -49,7 +49,7 @@
         const fourits = document.getElementsByClassName('fourts');
         // console.log(fourits)
         for(const fourt of fourits){
-            console.log(fourt.innerText)
+            // console.log(fourt.innerText)
         }
       
     </script>
